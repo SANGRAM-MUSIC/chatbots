@@ -37,8 +37,7 @@ async def is_admins(chat_id: int):
 
 
 EMOJIOS = [ 
-      "⚡",
-      "⚡",
+      "╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║\n║\n║\n║\n║\n╚══════ஜ۩۞۩ஜ═════╝",
 ]
       
 START = f"""
@@ -50,36 +49,15 @@ async def restart(client, m: Message):
     accha = await m.reply_text(
                 text = random.choice(EMOJIOS),
     )
-    await asyncio.sleep(0.6)
-    await accha.edit("sᴛᴀʀᴛɪɴɢ.")
-    await asyncio.sleep(0.6)
-    await accha.edit("sᴛᴀʀᴛɪɴɢ..")
-    await asyncio.sleep(0.6)
-    await accha.edit("sᴛᴀʀᴛɪɴɢ...")
-    await asyncio.sleep(0.6)
-    await accha.edit("sᴛᴀʀᴛɪɴɢ....")
-    await asyncio.sleep(0.6)
-    await accha.edit("ɪ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ ᴀ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ ᴀɴ")  
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ ᴀɴ ᴀ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ  ᴀɴ ᴀᴅ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ ᴀɴ ᴀᴅᴠ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀ")
-    await asyncio.sleep(0.5)
-    await accha.edit("ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴ")
-    await asyncio.sleep(0.8)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓ \n☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║➣\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║➣ @THE_VIP_BOY\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║➣ @THE_VIP_BOY\n║\n║➣ @TG_FRIENDSS\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║➣ @THE_VIP_BOY\n║\n║➣ @TG_FRIENDSS\n║\n║➣ @VIP_CREATORS\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+     
 
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
